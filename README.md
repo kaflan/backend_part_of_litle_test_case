@@ -3,7 +3,7 @@ Create handler that fetches all required data (NOTE planets API has pagination, 
 
 url get all planets
 ```
-http://localhost:3000/api/planetes
+http://localhost:3000/api/planets
 
 ```
 ## Installation
