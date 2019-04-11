@@ -10,8 +10,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-  @Get('planetes')
-  async getPlanetes(@Res() res: Response) {
-    res.status(HttpStatus.OK).json(await this.appService.agetPlanetes());
+  @Get('planets')
+  async getPlanets(@Res() res: Response) {
+    res.status(HttpStatus.OK).json(await this.appService.getPlanets());
   }
 }
